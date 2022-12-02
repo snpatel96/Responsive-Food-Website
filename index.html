@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="css/general.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/queries.css" />
+    <script defer src="js/script.js"></script>
     <title>Responsive Food Website</title>
   </head>
 
@@ -22,11 +23,11 @@
       /></a>
       <nav class="main-nav">
         <ul class="main-nav-list">
-          <li><a href="#" class="main-nav-link">How it works</a></li>
-          <li><a href="#" class="main-nav-link">Meals</a></li>
-          <li><a href="#" class="main-nav-link">Testimonials</a></li>
-          <li><a href="#" class="main-nav-link">Pricing</a></li>
-          <li><a href="#" class="main-nav-link nav-cta">Try for free</a></li>
+          <li><a href="#how" class="main-nav-link">How it works</a></li>
+          <li><a href="#meal" class="main-nav-link">Meals</a></li>
+          <li><a href="#testimonial" class="main-nav-link">Testimonials</a></li>
+          <li><a href="#pricing" class="main-nav-link">Pricing</a></li>
+          <li><a href="#cta" class="main-nav-link nav-cta">Try for free</a></li>
         </ul>
       </nav>
 
@@ -48,10 +49,10 @@
               eat healthy again. Tailored to your personal tastes and
               nutritional needs.
             </p>
-            <a href="#" class="btn btn--full margin-right-sm"
+            <a href="#cta" class="btn btn--full margin-right-sm"
               >Start eating well</a
             >
-            <a href="#" class="btn btn--outline">Learn more &darr;</a>
+            <a href="#how" class="btn btn--outline">Learn more &darr;</a>
             <div class="delivered-meals">
               <div class="delivered-imgs">
                 <img src="img/customers/customer-1.jpg" alt="Customer photo" />
@@ -88,7 +89,7 @@
         </div>
       </section>
 
-      <section class="section-how">
+      <section class="section-how" id="how">
         <div class="container">
           <span class="subheading">HOW IT WORkS</span>
           <h2 class="heading-secondary">
@@ -163,7 +164,7 @@
         </div>
       </section>
 
-      <section class="section-meals">
+      <section class="section-meals" id="meal">
         <div class="container center-text">
           <span class="subheading">Meals</span>
           <h2 class="heading-secondary">
@@ -279,7 +280,7 @@
         </div>
       </section>
 
-      <section class="section-testimonials">
+      <section class="section-testimonials" id="testimonial">
         <div class="testimonial-container">
           <span class="subheading">Testimonial</span>
           <h2 class="heading-secondary">Once you try it, you can't go back</h2>
@@ -386,7 +387,7 @@
         </div>
       </section>
 
-      <section class="section-pricing">
+      <section class="section-pricing" id="pricing">
         <div class="container">
           <span class="subheading">Pricing</span>
           <h2 class="heading-secondary">
@@ -506,7 +507,7 @@
         </div>
       </section>
 
-      <section class="section-cta">
+      <section class="section-cta" id="cta">
         <div class="container">
           <div class="cta">
             <div class="cta-text-box">
@@ -588,7 +589,8 @@
           </ul>
 
           <p class="copyright">
-            Copyright &copy; 2022 by Omnifood, Inc. All rights reserved.
+            Copyright &copy; <span class="year">2022</span> by Omnifood, Inc.
+            All rights reserved.
           </p>
         </div>
         <div class="address-col">
